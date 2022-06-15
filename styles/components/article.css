@@ -1,0 +1,62 @@
+.article {
+    padding-bottom: 0.3125rem;
+}
+
+.article h1 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.article p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    padding: 1.5rem 0;
+}
+
+.article h2 {
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+
+.article ul {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+}
+
+.article strong {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.article blockquote {
+    background-color: var(--primary-regular);
+    padding: 1rem 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+.article figure{
+    margin: 2.5rem 0;
+}
+
+.article img {
+    border-radius: 0.5rem;
+}
+
+.article figcaption {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.article a {
+    color: var(--primary-darker);
+}

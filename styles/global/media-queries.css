@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+  .menu-sandwich {
+    width: 1.5rem;
+    height: 1.5rem;
+    appearance: none;
+    background-image: url('../images/equis.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }  
+  
+  .menu-sandwich:checked {
+    background-image: url('../images/menu.svg');
+  }
+  
+  .nav-bar .links-list {
+    flex-direction: column;
+    width: 100%;
+    padding: 0.25rem 0;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .nav-bar .menu-sandwich:checked ~ .links-list {
+    display: none;
+  }
+  
+  .links-list li, .nav-bar .button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar .links-list {
+    align-items: baseline;
+    gap: 1.5rem;
+  }
+
+  .nav-bar .menu-sandwich {
+    display: none;
+  }
+}

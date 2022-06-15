@@ -1,0 +1,16 @@
+.footer{
+  text-align: center;
+  color: var(--primary-darker);
+  padding: 1rem 0;
+}
+
+.footer .frame {
+  display: inline-grid;
+  justify-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.footer .button {
+  width: fit-content;
+}

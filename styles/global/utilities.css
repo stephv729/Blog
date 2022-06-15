@@ -1,0 +1,30 @@
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.bg--primary-darker{
+  background-color: var(--primary-darker);
+}
+
+.bg--primary-light{
+  background-color: var(--primary-light);
+}
+.mb-32{
+  margin-bottom: 2rem;
+}
+
+.mb-16{
+  margin-bottom: 1rem;
+}
+
+.mb-8{
+  margin-bottom: 0.5rem;
+}
+
+.mb-4{
+  margin-bottom: 0.25rem;
+}

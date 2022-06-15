@@ -1,0 +1,62 @@
+.home .articles-container {
+    display: grid;
+    gap: 1rem;
+    color: var(--primary-darker);
+}
+.articles-container .heading {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    display: inline-grid;
+    gap: 0.25rem;
+}
+  
+.articles-container .body {
+    display: inline-grid;
+    gap: 2.1875rem;
+}
+  
+.body .row {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "article-1 article-2";
+}
+.row .article {
+    padding: 0.5rem;
+    display: inline-grid;
+    gap: 0.625rem;
+}
+  
+.row .article1{
+    grid-area: article-1;
+}
+  
+.row .article2{
+    grid-area: article-2;
+}
+  
+.article .link {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--primary-dark);
+}
+
+.welcome {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.greeting {
+    color: var(--primary-lighter);
+    text-align: left;
+  }
+  
+.greeting span {
+    color: var(--primary-regular);
+}
+  
+.description {
+    color: var(--primary-lighter);
+    text-align: left;
+}

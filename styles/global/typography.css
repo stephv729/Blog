@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+:root {
+  --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 150%;
+  background-color: #F5FCF8;
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.text-md {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 150%;
+}
+/* Headings */
+.heading-3xl{
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.heading-2xl{
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+}
+
+.heading-xl{
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+
+.heading-lg{
+  font-size: 2.25rem;
+  line-height: 2.7rem;
+}
+
+.heading-md{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.heading-sm{
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.heading-xs{
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.light{
+  font-weight: 300;
+}
+
+.regular{
+  font-weight: 400;
+}
+
+.medium{
+  font-weight: 500;
+}
+
+.semi-bold{
+  font-weight: 600;
+}
+
+.overline {
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}

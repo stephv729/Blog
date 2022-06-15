@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header bg--primary-darker">
+        <div class="container-lg">
+          <nav class="nav-bar">
+            <a href="index.html" class="text-decoration-none logo heading-md semi-bold">Stephanny Vargas</a>
+            <input class="menu-sandwich" type="checkbox" checked>
+            <ul class="links-list">
+              <li><a href="index.html#articles" class="link text-md semi-bold">Articles</a></li>
+              <li><a href="portafolio.html" class="link text-md semi-bold">Portafolio</a></li>
+              <li><a href="about.html" class="link text-md semi-bold">About</a></li>
+              <li><a href="contact.html" type="button" class="text-decoration-none button button--primary button--sm">Contact me</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <section class="section-md">
+      <main class="container-lg">
+        <form action="" class="form" id="form">
+        <h1 class="heading-lg semi-bold mb-4">Contact Me</h1>
+        <p class="text-lg light mb-32">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
+        <div class="form__container">
+        <div class="inputs__container" id="inputs__container">
+            <div class="input_card">
+              <label for="first-name" class="input__label overline text-xs light">First name</label>
+              <input required type="text" class="form__input text-md light" name="user__first-name" id="first-name" placeholder="Jhon">
+            </div>
+            <div class="input_card">
+              <label for="last-name" class="input__label overline text-xs light">Last name</label>
+              <input required type="text" class="form__input text-md light" name="user__last-name" id="last-name" placeholder="Doe">
+            </div>
+            <div class="input_card">
+              <label for="e-mail" class="input__label overline text-xs light">Email</label>
+              <input required type="email" class="form__input text-md light" name="user__e-mail" id="e-mail" placeholder="john@mail.com">
+            </div>
+            <div class="input_card">
+              <label for="company" class="input__label overline text-xs light">Company</label>
+              <input type="text" class="form__input text-md light" name="user__company" id="company" placeholder="Company SA">
+            </div>
+            <div class="input_card">
+              <label for="phone" class="input__label overline text-xs light">Phone</label>
+              <input type="tel" class="form__input text-md light" name="user__phone" id="phone" placeholder="987654321">
+            </div>
+            <div class="input_card">
+              <label for="country" class="input__label overline text-xs light">Country</label>
+              <select class="form__input text-md light" name="user__country" id="country"> 
+                <option selected disabled value="">-Select a country-</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Chile">Chile</option>
+                <option value="México">México</option>
+                <option value="Perú">Perú</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            
+            
+          </div>
+          <div class="help-form__group">
+            <h3 class="text-xs light overline mb-8">How can I help you?</h3>
+            <p class="help_option">
+              <input type="checkbox" name="user__help__option" value="job-offer" id="option1">
+              <label for="option1" class="text-sm light">Job Offer</label><br>
+              <text class="text-xs light"> If you are looking to expand your team </text>
+            </p>
+            <p class="help_option">
+              <input type="checkbox" name="user__help__option" value="project-offer" id="option2">
+              <label for="option2" class="text-sm light">Project Offer</label><br>
+              <text class="text-xs light"> If you need a developer for a specific project </text>
+            </p>
+            <p class="help_option">
+              <input type="checkbox" name="user__help__option" value="collaboration" id="option3">
+              <label for="option3" class="text-sm light">Collaboration</label><br>
+              <text class="text-xs light"> If you are looking to teaming up to work on a problem in tandem </text>
+            </p>
+            <p class="help_option">
+              <input type="checkbox" name="user__help__option" value="other" id="option4">
+              <label for="option4" class="text-sm light">Other</label>
+            </p>
+          </div>
+          <button class="button button--primary">Send</button>
+        </div>
+        </form>
+      </main>
+    </section>
+    <div hidden>
+      <svg id="person-icon" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.3333 14.6667H0.666664V13.3333C0.666664 12.4493 1.01785 11.6014 1.64297 10.9763C2.2681 10.3512 3.11594 9.99999 4 9.99999H8C8.88405 9.99999 9.7319 10.3512 10.357 10.9763C10.9821 11.6014 11.3333 12.4493 11.3333 13.3333V14.6667ZM6 8.66666C5.47471 8.66666 4.95457 8.56319 4.46926 8.36217C3.98396 8.16116 3.543 7.86652 3.17157 7.49508C2.80014 7.12365 2.5055 6.68269 2.30448 6.19739C2.10346 5.71209 2 5.19194 2 4.66666C2 4.14137 2.10346 3.62123 2.30448 3.13592C2.5055 2.65062 2.80014 2.20966 3.17157 1.83823C3.543 1.4668 3.98396 1.17216 4.46926 0.971138C4.95457 0.77012 5.47471 0.666656 6 0.666656C7.06086 0.666657 8.07828 1.08808 8.82842 1.83823C9.57857 2.58837 10 3.60579 10 4.66666C10 5.72752 9.57857 6.74494 8.82842 7.49508C8.07828 8.24523 7.06086 8.66666 6 8.66666Z" fill="#6B7280"/>
+      </svg>
+    </div>
+  </body>
+</html>
